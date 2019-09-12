@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width:1140px;
+}
+
+header{
+    width:100%;
+    float:left;
+    background-color:whitesmoke;
+    height:100px;
+}
+header img {
+    margin: 40px 153px;
+}
+.banner{
+    background-image:url(../img/banner.png);
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    height:800px;
+    width:100%;
+    float:left;
+    text-align:center;
+
+}
+
+.banner-content{
+    color:transparent;
+    text-align:center;
+}
+
+.banner-content h1{
+    color:white;
+    font-size:120px;
+    display:inline-block;
+    margin: 215px auto 35px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+span{
+    border-bottom:2px solid cornflowerblue;
+}
+
+.banner-content p{
+    color:white;
+    font-size:20px;
+    display:inline-block;
+    margin: 40px auto 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.btn-one{
+    background-color:transparent;
+    display:inline-block;
+    border-color: cornflowerblue;
+    font-size: 18px;
+    padding: 20px 30px;
+    box-shadow: 0.2px 0.3px 1px cornflowerblue;
+    margin: 60px auto 170px auto;
+    border-radius:5px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
+
+.simple {
+    background-color:white;
+    text-align:center;
+    width:100%;
+    float:left;
+    height:120px;
+    margin:20px auto;
+}
+
+.simple h2{
+    display:inline-block;
+    margin: 20px auto 10px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.simple p{
+    display:inline-block;
+    color: slategray;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.design{
+    background-color:whitesmoke;
+    width:100%;
+    float:left;
+    height: 246px;
+}
+
+.one{
+    width:33.33%;
+    float:left;
+    text-align:center;
+}
+
+.one h3{
+    width:100%;
+    margin: 45px auto 10px auto;
+    display:inline-block;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.one p{
+    width:100%;
+    margin:0 auto;
+    display:inline-block;
+    font-family: 'Lato', sans-serif;
+}
+
+.work{
+    background-color:whitesmoke;
+    width:100%;
+    float:left;
+    height: 575px;
+    text-align:center;
+}
+
+.work h3{
+    display:inline-block;
+    margin: 34px auto 7px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.work p{
+    display:inline-block;
+    color:slategrey;
+    font-family: 'Lato', sans-serif;
+}
+
+.images{
+    margin: 30px auto 20px auto;
+
+}
+.one{
+    width:33.33%;
+    float:left;
+    text-align:center;
+    margin: 12px 0px;
+}
+
+.one img{
+    width:98%;
+    height: 181px;
+    float:left;
+}
+
+.one img:hover{
+    cursor:pointer;
+    background-color:rgba(27, 79, 182, 0.1);
+
+}
+
+.contact{
+    width:100%;
+    float:left;
+    height:600px;
+    background-image:url(../img/contact-bg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    text-align:center;
+    position:relative;
+}
+
+.layer{
+    position:absolute;
+    background-color:rgba(27, 79, 182, 0.5);
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.support{
+    margin: 42px auto 20px auto;
+}
+
+.support h1{
+    font-family: 'Lato', sans-serif;
+    color:white;
+    display:inline-block;
+    margin: 20px auto 11px auto;
+}
+
+
+.support p{
+    font-family: 'Lato', sans-serif;
+    color:slategrey;
+    display: inline-block;
+    margin: 0px auto 40px auto;
+}
+
+.form-content{
+    color: lightgray;
+    border-color: lightgray;
+    background-color:transparent;
+    font-size:20px;
+    width: 50%;
+    height: 28px;
+    border-style: solid;
+    border-radius: 2px;
+    margin: 5px auto 10px auto;
+    padding:0px 0px 0px 5px;
+}
+
+.form-message{
+    margin: 5px auto 0px auto;
+    color: lightgray;
+    border-color: lightgray;
+    background-color:transparent;
+    font-size:20px;
+    border-style: solid;
+    border-radius: 2px;
+    width: 50%;
+    height: 186px;
+    padding: 0px 0px 150px 5px;
+}
+.form-checkbox {
+    color: white;
+    text-align: left;
+    margin: 13px 3px 2px -407px;
+}
+
+.btn-two {
+    background-color: transparent;
+    text-align: right;
+    border-color: cornflowerblue;
+    font-size: 18px;
+    padding: 20px 30px;
+    box-shadow: 0.2px 0.3px 1px cornflowerblue;
+    margin: -66px 1px 0px 470px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    height: 40px;
+    background-color: whitesmoke;
+}
+
+.copyright{
+    width:40%;
+    float:left
+}
+
+.copyright p{
+    color:slategray;
+    margin:5px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+
+
+
+
+
